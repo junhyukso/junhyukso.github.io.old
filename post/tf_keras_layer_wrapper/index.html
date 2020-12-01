@@ -1,4 +1,5 @@
-<!doctype html><html lang=ko><head><title>[TF2.0]keras Layer Wrapping 하기 ::
+<!doctype html><html lang=ko><head><script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6LJX3GCJZ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-Q6LJX3GCJZ');</script><title>[TF2.0]keras Layer Wrapping 하기 ::
 Junhyuk So's Blog</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="실험을 위해서, 이미 존재하는 keras모델의 특정레이어들에서, Input/Output Tensor들에 약간의 조작이 필요한일이 생겼습니다. 따라서 Layer를 특정 Wrapper로 감싸려고 하였는데요,
 처음에는 단순히 기존 모델생성코드를 수정하여, 사이사이 Wrapper Function을 추가하는걸 생각해봤습니다.
 하지만 레이어가 수십개라면 너무 귀찮은 작업이고 코드의 범용성도 떨어지기에 이참에 범용적으로 적용가능하게 코드를 작성하려고 해봤습니다.
